@@ -1,3 +1,13 @@
+html {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+    color: #33b903;
+}
+
 p {
-    color: #ff0000;
+    font-size: 22px;
 }
