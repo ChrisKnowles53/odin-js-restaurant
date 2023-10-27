@@ -19,7 +19,7 @@ export default function createPage() {
   );
   const descriptionElement = createElementWithText(
     "p",
-    "What delights do you think we eat here?\n 🪰flies🪰"
+    "What delights do you think we eat here? 🪰flies🪰"
   );
 
   const spidermanImage = document.createElement("img");
