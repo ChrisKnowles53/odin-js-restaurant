@@ -16,24 +16,51 @@ body {
     background-color: transparent;
     color: var(--yellow);
 }
+
 h1 {
     font-size: 50px;
     background-color: var(--offBlack);
     width: 380px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
-p {
+
+.page-load-paragraph {
     background-color: var(--offBlack);
     font-size: 22px;
     padding: 10px;
-    width: 390px;
-    border-radius: 10px;
+    width: 360px;
+    border-radius: 3px;
 }
-.menu-button, .content-button{
+
+.home-button, .menu-button, .contact-button {
     color: var(--yellow);
     font-size: 30px;
     background-color: var(--offBlack);
     padding: 10px 30px;
     border-radius: 10px;
+    margin: 5px;
+    box-shadow:none;
+}
+.home-button:hover, .menu-button:hover, .contact-button:hover {
+    background-image: url(../images/web-button-background.jpg);
+    background-size: cover;
+}
+.active-button {
+    background-image: url(../images/web-button-background.jpg);
+    background-size: cover;
+}
+
+.menu-div, .contact-div {
+    background-color: var(--offBlack);
+    width: 480px;
+    font-size: 28px;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-text, .contact-text {
+    margin: 0px;
+    color: var(--green);
 }
