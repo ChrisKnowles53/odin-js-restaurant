@@ -13,19 +13,26 @@ export default function createPage() {
     return element;
   }
 
-  const titleElement = createElementWithText(
-    "h1",
-    "The Spiders Web Restaurant"
-  );
+  const titleElement = createElementWithText("h1", "The Spiders Web");
   const descriptionElement = createElementWithText(
     "p",
     "What delights do you think we eat here? 🪰flies🪰"
   );
 
+  const menuButton = createElementWithText("button", "Menu");
+  menuButton.setAttribute("id", "menu-button");
+  menuButton.setAttribute("class", "menu-button");
+
+  const contentButton = createElementWithText("button", "Content");
+  contentButton.setAttribute("id", "content-button");
+  contentButton.setAttribute("class", "content-button");
+
   const spidermanImage = document.createElement("img");
   spidermanImage.setAttribute("src", hangingSpiderman);
   spidermanImage.setAttribute("alt", "spiderweb image");
 
+  div.appendChild(menuButton);
+  div.appendChild(contentButton);
   div.appendChild(titleElement);
   div.appendChild(descriptionElement);
   div.appendChild(spidermanImage);
