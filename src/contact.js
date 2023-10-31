@@ -7,10 +7,10 @@ export default function contactPage() {
   );
 }
 
-function contactItem(contacttitle, contactContent) {
+function contactItem(contactTitle, contactContent) {
   const contactDiv = document.createElement("div");
   contactDiv.setAttribute("class", "contact-div");
-  contactDiv.textContent = contacttitle;
+  contactDiv.textContent = contactTitle;
 
   const contactText = document.createElement("p");
   contactText.setAttribute("class", "contact-text");
