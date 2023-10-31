@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Odin Restaurant Project Project to prctive lessons learnt so far through the Odin project",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
